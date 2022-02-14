@@ -14,7 +14,10 @@
                                 <div id="seconds" class="text-center">{{seconds}} <span>Seconds</span></div>
                             </div>
                             <hr/>
-                            <p>StachesNFT Genesis Line is an Official Soakmont ($SOAK) Collection of 300 handsomely mustached world travelers. Each NFT will carry a weighted number of entries into monthly reward lotteries performed by the Lucky Fairy ($FAE) ecosytems, along with benefits in Lucky Fairy, Soakmont and other partners through the innovative Stache Pass.
+                            <p>
+                                Staches Genesis Minting will be available on February 14th at 16:00 EST. There is a maximum of 300 NFTs to be minted.
+                                <br/>
+                                Reveal will be on February 20th at 16:00 EST.
                             </p>
                             <span class="stache-hr"></span>
                             <div v-if="!getAccount"><p class="mint-text">Please connect your wallet</p></div>
@@ -45,7 +48,7 @@
                         <h3 class="stache-title mt-5">About the Staches</h3>
                         <span class="stache-hr"></span>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        StachesNFT is an Official Soakmont ($SOAK) NFT Collection of 10000 handsomely mustached world travelers. Each NFT will carry a weighted number of entries into monthly reward lotteries performed by the Lucky Fairy ($FAE) ecosytems, along with benefits in Lucky Fairy, Soakmont and other partners through the innovative Stache Pass.
                         </p>
                     </div>
                 </div>

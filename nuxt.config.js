@@ -15,7 +15,7 @@ export default {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'StachesNFT is an Official Soakmont ($SOAK) Collection of 10000 handsomely mustached world travelers. Each NFT will carry a weighted number of entries into monthly reward lotteries performed by the Lucky Fairy ($FAE) ecosytems, along with benefits in Lucky Fairy and Soakmonth through the innovative Stache Pass.' }
+            { hid: 'description', name: 'description', content: 'StachesNFT is an Official Soakmont ($SOAK) Collection of 10000 handsomely mustached world travelers. Each NFT will carry a weighted number of entries into monthly reward lotteries performed by the Lucky Fairy ($FAE) ecosytems, along with benefits in Lucky Fairy, Soakmont and other partners through the innovative Stache Pass.' }
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

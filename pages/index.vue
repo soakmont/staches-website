@@ -22,7 +22,7 @@
                             <span class="stache-hr"></span>
                             <div v-if="!getAccount"><p class="mint-text">Please connect your wallet</p></div>
                             <div v-else-if="mintStarted" class="mint-form">
-                            <p class="total-price mint-text small">Choose between 1 and 20 NFTs</p>
+                            <p class="total-price mint-text small">Choose between 1 and 10 NFTs</p>
                             <input v-model="mintQuantity" type="number" class="form-control w-auto d-inline-block my-2" />
                             <a href="javascript:void(0)" @click="mintNFT" class="btn btn-primary mt-2">Mint</a>
                             <p class="total-price mint-text">Total price: {{ totalMintPrice }} ETH</p>
@@ -257,18 +257,16 @@ export default {
             minutes: '',
             seconds: '',
             endTime: new Date("February 14, 2022 16:00:00 EST"),
-            maxMint: 14420,
-            mintCost: 0.0420,
-            mintQuantity: 3
+            maxMint: 10,
+            mintCost: 0.1,
+            mintQuantity: 3,
+            mintStarted: false
         }
     },
     computed: {
         ...mapGetters({
             getAccount: 'getAccount'
         }),
-        mintStarted() {
-            return new Date() > this.endTime
-        },
         totalMintPrice() {
             return parseFloat(this.mintQuantity * this.mintCost).toFixed(3);
         }
@@ -280,17 +278,18 @@ export default {
     },
     methods: {
         validateMintQuantity() {
-            return parseInt(this.mintQuantity) >= 1 && parseInt(this.mintQuantity) <= 20;
+            return parseInt(this.mintQuantity) >= 1 && parseInt(this.mintQuantity) <= 10;
         },
         commingSoonTime() {
-            if (this.mintStarted) {
+            let endTime = this.endTime;		
+            if (new Date() > endTime) {
                 this.days = "00";
                 this.hours = "00";
                 this.minutes = "00";
                 this.seconds = "00";
+                this.mintStarted = true;
                 return;
             }
-            let endTime = this.endTime;		
             let endTimeParse = (Date.parse(endTime)) / 1000;
             let now = new Date();
             let nowParse = (Date.parse(now) / 1000);
@@ -299,6 +298,7 @@ export default {
             let hours = Math.floor((timeLeft - (days * 86400)) / 3600);
             let minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
             let seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+            if (days < "10") { days = "0" + days; }
             if (hours < "10") { hours = "0" + hours; }
             if (minutes < "10") { minutes = "0" + minutes; }
             if (seconds < "10") { seconds = "0" + seconds; }
@@ -311,7 +311,7 @@ export default {
             if (!this.validateMintQuantity()) {
                 this.$swal.fire({
                     title: 'Error',
-                    text: "Number of mints must be between 1 and 20",
+                    text: "Number of mints must be between 1 and 10",
                     icon: 'error',
                     buttonsStyling: false,
                     customClass: {
@@ -408,9 +408,9 @@ p.mint-text.small {
 }
 
 input.form-control {
-    border-radius: 30px;
-    border: 2px solid #226A31;
-    height: 51px;
+    border-radius: 20px;
+    border: 2px solid #d8a462;
+    height: 42px;
     text-align: center;
 }
 </style>

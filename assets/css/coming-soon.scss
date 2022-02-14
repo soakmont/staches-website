@@ -1,0 +1,205 @@
+@import "colors.scss";
+
+/*
+@File: Template Styles
+
+* This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+
+This files table contents are outlined below>>>>>
+
+**************************************************************************************
+
+
+
+==== INDEX PAGE CSS
+
+** - Team CSS
+** - Repair Team CSS
+** - IoT Team CSS
+*/
+
+/*================================================
+Default CSS
+=================================================*/
+
+/*================================================
+Coming Soon CSS
+=================================================*/
+.coming-soon-area {
+    position: relative;
+    z-index: 1;
+    min-height: 540px;
+    background: {
+        image: url(../img/bg-header.png);
+        position: center center;
+        size: cover;
+        repeat: no-repeat;
+    }
+    .social-list {
+        padding: 0 0 10px;
+        list-style-type: none;
+        margin: 10px auto 0;
+        text-align: center;
+        bottom: 30px;
+
+        li {
+            display: inline-block;
+            margin: 0px 12px;
+
+            &.list-heading {
+                display: block;
+                color: $white-color;
+                margin-bottom: 10px;
+                font: {
+                    size: 16px;
+                    weight: 500;
+                }
+            }
+            a {
+                width: 45px;
+                height: 45px;
+                line-height: 50px;
+                background: $light-green-color;
+                color: $white-color;
+                border-radius: 50%;
+                margin: 0 2px;
+
+                svg {
+                    width: 35px;
+                    height: 20px;
+                }
+                &.discord {
+                    background-color: #466cbd;
+                }
+                &.twitter {
+                    background-color: #1da1f2;
+                }
+                &.telegram {
+                    background-color: #034468;
+                }
+                &.github {
+                    background-color: #24292f;
+                }
+                &:hover, &:focus {
+                    background-color: $light-green-color;
+                }
+            }
+        }
+    }
+}
+.coming-soon-content {
+    margin: 0 auto;
+
+    h1 {
+        color: $white-color;
+        font: {
+            size: 55px;
+            weight: 600;
+        }
+        margin-bottom: 15px;
+    }
+    form {
+        position: relative;
+        margin: 35px auto 55px;
+        max-width: 520px;
+
+        .email-input {
+            display: block;
+            width: 100%;
+            height: 56px;
+            border: none;
+            box-shadow: inset 0 0 1px rgba(0,0,0,.1), 0px 0px 0px 5px rgba(255,255,255,.3);
+            border-radius: 40px;
+            padding: 15px 25px;
+            font-size: 16px;
+            outline: 0 !important;
+            background: #F1F2F3;
+        }
+        .submit-btn {
+            position: absolute;
+            right: 3px;
+            top: 3px;
+            height: 50px;
+            background: $light-green-color;
+            color: $white-color;
+            border: none;
+            border-radius: 40px;
+            width: 130px;
+            outline: 0 !important;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: $transition;
+            font: {
+                size: 15px;
+                weight: 500;
+            }
+            &:hover, &:focus {
+                background-color: $purple-color;
+            }
+        }
+    }
+    #timer {
+        div {
+            position: relative;
+            display: inline-block;
+            border-radius: 20px;
+            width: 24%;
+            height: auto;
+            color: $stache-dark;
+            font: {
+                size: 48px;
+                weight: 500;
+            }
+            span {
+                display: block;
+                margin-top: -4px;
+                color: $gold-color;
+                font-size: 15px;
+            }
+            &:not(:last-child):after {
+                content: ':';
+                width: 6px;
+                font-family: Roboto;
+                font-size: 32px;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #bfbfbf;
+                position:absolute;
+                right:0;
+                top:25%;
+            }
+        }
+        @media all and (max-width: 767px) {
+            div {
+                font: {
+                    size: 36px;
+                    weight: 500;
+                }
+                span {
+                    display: block;
+                    margin-top: 0px;
+                    font-size:16px;
+                }
+            }
+        }
+        @media all and (max-width: 500px) {
+            div {
+                font: {
+                    size: 28px;
+                    weight: 500;
+                }
+                span {  
+                    display: block;
+                    margin-top: 4px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

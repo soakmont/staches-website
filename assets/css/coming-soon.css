@@ -1,0 +1,215 @@
+/*
+@File: Pasona Template Styles
+
+* This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+
+This files table contents are outlined below>>>>>
+
+*******************************************
+*******************************************
+
+==== INDEX PAGE CSS
+
+** - Team CSS
+** - Repair Team CSS
+** - IoT Team CSS
+*/
+/*================================================
+Default CSS
+=================================================*/
+/*================================================
+Coming Soon CSS
+=================================================*/
+.coming-soon-area {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  background-image: url(../img/bg-header.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.coming-soon-area::before {
+  z-index: -1;
+  background: linear-gradient(180deg, #000000 0%, #FFFFFF00 34%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  opacity: 1;
+}
+
+.coming-soon-area .social-list {
+  padding: 0 0 10px;
+  list-style-type: none;
+  margin: 10px auto 0;
+  text-align: center;
+  bottom: 30px;
+}
+
+.coming-soon-area .social-list li {
+  display: inline-block;
+  margin: 0px 12px;
+}
+
+.coming-soon-area .social-list li.list-heading {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.coming-soon-area .social-list li a {
+  width: 45px;
+  height: 45px;
+  line-height: 50px;
+  background: #44ce6f;
+  color: #ffffff;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+
+.coming-soon-area .social-list li a svg {
+  width: 35px;
+  height: 20px;
+}
+
+.coming-soon-area .social-list li a.discord {
+  background-color: #466cbd;
+}
+
+.coming-soon-area .social-list li a.twitter {
+  background-color: #1da1f2;
+}
+
+.coming-soon-area .social-list li a.telegram {
+  background-color: #034468;
+}
+
+.coming-soon-area .social-list li a.github {
+  background-color: #24292f;
+}
+
+.coming-soon-area .social-list li a:hover, .coming-soon-area .social-list li a:focus {
+  background-color: #44ce6f;
+}
+
+.coming-soon-content {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.coming-soon-content h1 {
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.coming-soon-content p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 620px;
+}
+
+.coming-soon-content form {
+  position: relative;
+  margin: 35px auto 55px;
+  max-width: 520px;
+}
+
+.coming-soon-content form .email-input {
+  display: block;
+  width: 100%;
+  height: 56px;
+  border: none;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 5px rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  padding: 15px 25px;
+  font-size: 16px;
+  outline: 0 !important;
+  background: #F1F2F3;
+}
+
+.coming-soon-content form .submit-btn {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  height: 50px;
+  background: #44ce6f;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  width: 130px;
+  outline: 0 !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.coming-soon-content form .submit-btn:hover, .coming-soon-content form .submit-btn:focus {
+  background-color: #c679e3;
+}
+
+.coming-soon-content #timer div {
+  background: #8BC33CF2;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 16px;
+  width: 110px;
+  height: 110px;
+  color: white;
+  margin: 0 10px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.coming-soon-content #timer div span {
+  display: block;
+  margin-top: -4px;
+  color: white;
+  font-size: 15px;
+}
+
+@media all and (max-width: 767px) {
+  .coming-soon-content #timer div {
+    width: 95px;
+    height: 95px;
+    margin: 0 10px;
+    padding-top: 18px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .coming-soon-content #timer div span {
+    display: block;
+    margin-top: 0px;
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .coming-soon-content #timer div {
+    width: 65px;
+    height: 65px;
+    margin: 0 6px;
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .coming-soon-content #timer div span {
+    display: block;
+    margin-top: 4px;
+    font-size: 9px;
+  }
+}

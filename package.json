@@ -1,0 +1,38 @@
+{
+  "name": "staches-website",
+  "version": "2.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.3",
+    "feather-icons": "^4.28.0",
+    "jquery": "^3.6.0",
+    "nuxt": "^2.13.3",
+    "v-wow": "git+https://github.com/guisoares2011/vue-wow.git",
+    "vue-backtotop": "^1.6.1",
+    "vue-carousel": "^0.18.0",
+    "vue-cool-lightbox": "^2.7.4",
+    "vue-faq-accordion": "^1.6.2",
+    "vue-feather": "^1.1.1",
+    "vue-slick": "^1.1.16",
+    "vue-toastification": "^1.7.11",
+    "@walletconnect/web3-provider": "^1.5.4",
+    "web3": "^1.5.1",
+    "web3modal": "^1.9.4",
+    "sweetalert2": "^10.15.7"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "sass": "^1.34.1",
+    "sass-loader": "^10.2.0"
+  }
+}

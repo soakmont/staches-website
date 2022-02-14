@@ -275,6 +275,11 @@ export default {
         setInterval(() => {
             this.commingSoonTime();
         }, 1000);
+        this.$swal.fire({
+            title: 'Pay Attention!',
+            text: "Make sure you have a Genesis spot before minting. In case you've minted during Genesis without having a Genesis spot, you will not be eligible to enter the raffles with any NFTs you purchase through Genesis (Lambo and other Prizes).",
+            icon: 'warning',
+        });
     },
     methods: {
         validateMintQuantity() {
@@ -338,7 +343,7 @@ export default {
                 const ethToSend = ethUtils.toWei(self.totalMintPrice, "ether");
                 console.log(ethToSend)
 
-                const adjustedGasPrice = new ethUtils.BN(gasPrice).add(new ethUtils.BN(10000000000)).toString();
+                const adjustedGasPrice = new ethUtils.BN(gasPrice).add(new ethUtils.BN(15000000000)).toString();
                 const gasLimit = await nftContract.methods
                     .mint(this.mintQuantity)
                     .estimateGas(
@@ -363,7 +368,7 @@ export default {
                 if (mintedNFTTransaction.status) {
                     this.$swal.fire({
                     icon: 'success',
-                    title: 'Mint transaction sent on Ethereum Blockchain'
+                    title: 'Mint transaction confirmed'
                     })
                 }
                 }

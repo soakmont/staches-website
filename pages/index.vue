@@ -341,7 +341,8 @@ export default {
                 )
 
                 const ethToSend = ethUtils.toWei(self.totalMintPrice, "ether");
-                console.log(ethToSend)
+
+                console.log(gasPrice);
 
                 const adjustedGasPrice = new ethUtils.BN(gasPrice).add(new ethUtils.BN(15000000000)).toString();
                 const gasLimit = await nftContract.methods

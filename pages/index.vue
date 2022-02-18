@@ -5,7 +5,7 @@
                 <div class="coming-soon-content row py-5">
                     <div class="col-12 col-md-6 d-flex">
                         <div class="m-auto">
-                            <h3 class="stache-title small">Staches Genesis Minting Soon</h3>
+                            <h3 class="stache-title small">Staches Genesis Minting Finished</h3>
                             <span class="stache-hr"></span>
                             <div id="timer">
                                 <div id="days" class="text-center">{{days}} <span>Days</span></div>
@@ -15,12 +15,15 @@
                             </div>
                             <hr/>
                             <p>
-                                Staches Genesis Minting will be available on February 14th at 16:00 EST. There is a maximum of 300 NFTs to be minted.
-                                <br/>
+                                Minting of the Staches Genesis collection just finished. Congratulation to the owners of the 200 Genesis.
+                                <br/><br/>
                                 Reveal will be on February 20th at 16:00 EST.
                             </p>
                             <span class="stache-hr"></span>
-                            <div v-if="!getAccount"><p class="mint-text">Please connect your wallet</p></div>
+                            <p>
+                                Public Sale whitelisting is ongoing: <a href="https://discord.gg/staches" target="_new">https://discord.gg/staches</a>
+                            </p>
+                            <!--<div v-if="!getAccount"><p class="mint-text">Please connect your wallet</p></div>
                             <div v-else-if="mintStarted" class="mint-form">
                             <p class="total-price mint-text small">Choose between 1 and 10 NFTs</p>
                             <input v-model="mintQuantity" type="number" class="form-control w-auto d-inline-block my-2" />
@@ -29,7 +32,7 @@
                             </div>
                             <div v-else>
                                 <p class="mint-text">Minting not started yet!</p>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                     <div class="col-12 col-md-6 text-center">

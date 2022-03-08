@@ -2,7 +2,6 @@
  <div class="d-inline-flex align-items-center">
     <div class="d-inline-flex align-items-center">
       <select v-if="providerName" @change="onNetworkChanged($event)" class="form-control">
-        <option>{{networkName}}</option>
         <option value="43114">Avax</option>
         <option value="56">BnB</option>
         <option value="1">Mainnet</option>
@@ -30,6 +29,13 @@ export default {
   },
   data() {
     return {
+      networks: [
+        'Avax',
+        'BnB',
+        'Mainnet',
+        'Phantom',
+        'Polygon',
+      ],
       web3: null,
       provider: null,
       address: null,
@@ -103,23 +109,17 @@ export default {
           if (switchError.code === 4902) {
             this.$swal.fire({
               title: 'Error',
-              text: currentError,
+              text: 'The chain ID do not exist in your MetaMask',
               icon: 'error',
-              buttonsStyling: false,
-              customClass: {
-                confirmButton: 'The chain ID do not exist in your MetaMask',
-              },
+              buttonsStyling: false
             })
           }
-          if (switchError.code === 32002) {
+          if (switchError.code === -32002) {
              this.$swal.fire({
               title: 'Error',
-              text: currentError,
+              text: 'You already have a pending request in your MetaMask',
               icon: 'error',
               buttonsStyling: false,
-              customClass: {
-                confirmButton: 'You already have a pending request in your MetaMask',
-              },
             })
           }
         }

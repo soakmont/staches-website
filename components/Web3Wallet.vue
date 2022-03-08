@@ -1,7 +1,7 @@
 <template>
  <div class="d-inline-flex align-items-center">
     <div class="d-inline-flex align-items-center">
-      <select v-if="!providerName" @change="onNetworkChanged($event)" class="form-control">
+      <select v-if="providerName" @change="onNetworkChanged($event)" class="form-control">
         <option>{{networkName}}</option>
         <option value="43114">Avax</option>
         <option value="56">BnB</option>

@@ -1,7 +1,19 @@
 <template>
-  <div class="d-inline-flex align-items-center">
-    <a v-if="!providerName" @click="initializeWallet" class="btn btn-primary">Connect</a>
-    <a v-else @click="disconnectWallet" class="btn btn-primary">Disconnect</a>
+ <div class="d-inline-flex align-items-center">
+    <div class="d-inline-flex align-items-center">
+      <select v-if="!providerName" @change="onNetworkChanged($event)" class="form-control">
+        <option>{{networkName}}</option>
+        <option value="43114">Avax</option>
+        <option value="56">BnB</option>
+        <option value="1">Mainnet</option>
+        <option value="137">Polygon</option>
+        <option value="250">Phantom</option>
+      </select>
+    </div>
+    <div class="d-inline-flex align-items-center">
+      <a v-if="!providerName" @click="initializeWallet" class="btn btn-primary">Connect</a>
+      <a v-else @click="disconnectWallet" class="btn btn-primary">Disconnect</a>
+    </div>
   </div>
 </template>
 <script>
@@ -28,7 +40,7 @@ export default {
       atLeastOneConnectedAccount: 'atLeastOneConnectedAccount',
       providerName: 'getProviderName',
       networkName: 'getNetworkName'
-    }),
+    })
   },
   mounted() {
     if (window.localStorage.getItem('WEB3_CONNECT_CACHED_PROVIDER')) {
@@ -41,23 +53,24 @@ export default {
         window.provider = await this.$web3Modal.connect()
         window.web3 = new Web3(window.provider)
 
-        await this.getProviderMetadata()
+        await this.getProviderMetadata();
 
         window.provider.on('accountsChanged', async () => {
-          await this.getProviderMetadata()
+          await this.getProviderMetadata();
         })
 
         window.provider.on('chainChanged', async () => {
-          await this.getProviderMetadata()
+          await this.getProviderMetadata();
         })
 
         window.provider.on('disconnect', async () => {
-          await this.getProviderMetadata()
+          await this.getProviderMetadata();
         })
 
         window.provider.on('connect', async () => {
-          await this.getProviderMetadata()
+          await this.getProviderMetadata();
         })
+
       } catch (e) {
         this.disconnectWallet();
         let currentError = e.message ? e.message : e
@@ -70,6 +83,46 @@ export default {
             confirmButton: 'btn btn-danger btn-fill',
           },
         })
+      }
+    },
+    async onNetworkChanged(event) {
+      if(await this.getProviderName() === "MetaMask"){
+        await this.swichNetwork(event.target.value)
+      }
+    },
+    async swichNetwork(chainId) {
+      const currentChainId = await window.web3.eth.net.getId()
+    
+      if (currentChainId !== chainId) {
+        try {
+          await window.ethereum.request({
+            method: 'wallet_switchEthereumChain',
+              params: [{ chainId: Web3.utils.toHex(chainId) }],
+            });
+        } catch (switchError) {
+          if (switchError.code === 4902) {
+            this.$swal.fire({
+              title: 'Error',
+              text: currentError,
+              icon: 'error',
+              buttonsStyling: false,
+              customClass: {
+                confirmButton: 'The chain ID do not exist in your MetaMask',
+              },
+            })
+          }
+          if (switchError.code === 32002) {
+             this.$swal.fire({
+              title: 'Error',
+              text: currentError,
+              icon: 'error',
+              buttonsStyling: false,
+              customClass: {
+                confirmButton: 'You already have a pending request in your MetaMask',
+              },
+            })
+          }
+        }
       }
     },
     async getProviderMetadata() {
@@ -162,6 +215,14 @@ export default {
           return 'Goerli'
         case 42:
           return 'Kovan'
+        case 56:
+          return 'BnB'
+        case 137:
+          return 'Polygon'
+        case 250:
+          return 'Phantom'
+        case 43114:
+          return 'Avax'
         default:
           return 'Unknown'
       }

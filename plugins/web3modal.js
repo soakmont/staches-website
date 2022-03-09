@@ -5,6 +5,12 @@ const providerOptions = {
   walletconnect: {
     package: WalletConnectProvider,
     options: {
+      rpc: {
+        56: "https://bsc-dataseed1.binance.org",
+        137: "https://polygon-rpc.com/",
+        250: "https://rpc.ftm.tools",
+        43114: "https://api.avax.network/ext/bc/C/rpc"
+      },
       infuraId: process.env.INFURA_PROJECT_ID
     }
   },

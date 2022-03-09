@@ -43,6 +43,7 @@ export default {
             networkName: 'Avax',
             logoUrl: '../assets/avax.svg',
             rpcUrl: 'https://api.avax.network/ext/bc/C/rpc',
+            blockExplorerUrl: 'https://explorer.avax.network/',
             currencySymbol: 'AVAX'
         },
         '1' : {

@@ -46,7 +46,7 @@ export default {
             currencySymbol: 'AVAX'
         },
         '1' : {
-            networkName: 'ETH',
+            networkName: 'Ethereum',
             networkFullName: 'Ethereum Mainnet',
             logoUrl: '../assets/mainnet.svg',
             rpcUrl: 'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',

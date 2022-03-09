@@ -1,17 +1,25 @@
 import Vuex from 'vuex'
+import VuexPersist from 'vuex-persist';
+
+const vuexLocalStorage = new VuexPersist({
+  key: 'offline',
+  storage: window.localStorage, 
+})
+
 const store = _ => {
   return new Vuex.Store({
+    plugins: [vuexLocalStorage.plugin],
     state: {
       provider: {
         qaoBalance: "0",
         ethBalance: "0",
         account: null,
-        connectedAccounts: 0,
         networkName: "",
         providerName: "",
         networkId: "",
         qaoApprovalLimit: 0
       },
+      connectedAccounts: 0,
       isSoundEnabled: true,
     },
     mutations: {
@@ -23,18 +31,11 @@ const store = _ => {
       },
       removeProvider (state, payload) {
         state.provider = {
-          qaoBalance: "0",
-          ethBalance: "0",
-          account: null,
-          connectedAccounts: 0,
-          networkName: "",
-          providerName: "",
-          networkId: "",
-          qaoApprovalLimit: 0
+          networkId: payload
         }
       },
       setConnectedAccount (state, payload) {
-        state.provider.connectedAccounts = payload
+        state.connectedAccounts = payload
       },
       setQaoApprovalLimit (state, payload) {
         state.provider.qaoApprovalLimit = payload
@@ -71,7 +72,7 @@ const store = _ => {
       getAccount: state => state.provider ? state.provider.account: null,
       getProviderName: state => state.provider ? state.provider.providerName: null,
       getQaoApprovalLimit: state => state.provider ? state.provider.qaoApprovalLimit: 0,
-      atLeastOneConnectedAccount: state => state.provider.connectedAccounts <= 0
+      atLeastOneConnectedAccount: state => state.connectedAccounts > 0
     }
   })
 }

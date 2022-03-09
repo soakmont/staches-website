@@ -88,7 +88,14 @@ export default {
     }),
     networkId: {
       get () {
-        return this.$store.state.provider.networkId
+        if (!window.localStorage.getItem('WEB3_CONNECT_CACHED_PROVIDER') && window.localStorage.getItem('vuex')) {
+          const local = JSON.parse(window.localStorage.getItem('vuex'))
+          return local.provider.networkId
+        } else if (this.$store.state.provider.networkId) {
+          return this.$store.state.provider.networkId
+        } else {
+          return 1
+        }
       },
       set (value) {
         this.$store.commit('setNetworkId', value)
@@ -139,7 +146,10 @@ export default {
       }
     },
     async onNetworkChanged(event) {
-      await this.swichNetwork(event.target.value)
+      if(this.providerName){
+        await this.swichNetwork(event.target.value)
+        this.$store.commit('setNetworkId', event.target.value)
+      }
     },
     async swichNetwork(chainId) {
       const currentChainId = await window.web3.eth.net.getId()
@@ -149,7 +159,7 @@ export default {
           await window.provider.request({
             method: 'wallet_switchEthereumChain',
               params: [{ chainId: Web3.utils.toHex(chainId) }],
-            });
+          });
         } catch (switchError) {
           if (switchError.code === 4902) {
             await this.addNetwork(chainId)
@@ -295,11 +305,12 @@ export default {
       }
     },
     async disconnectWallet() {
+      const networkId = await window.web3.eth.net.getId()
       window.localStorage.removeItem('WEB3_CONNECT_CACHED_PROVIDER')
       await this.$web3Modal.clearCachedProvider();
       window.web3 = null;
       window.provider = null;
-      this.$store.commit('removeProvider');
+      this.$store.commit('removeProvider', networkId);
     },
   },
 }

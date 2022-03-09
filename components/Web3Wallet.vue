@@ -1,7 +1,7 @@
 <template>
  <div class="d-inline-flex align-items-center">
     <div class="d-inline-flex align-items-center">
-      <select v-if="providerName === 'MetaMask'" @change="onNetworkChanged($event)" v-model="networkId">
+      <select @change="onNetworkChanged($event)" v-model="networkId">
         <option v-for="id in networkIds" :value="id" :key="id">
           {{ chainInfo[id].networkName }}
         </option>
@@ -139,16 +139,14 @@ export default {
       }
     },
     async onNetworkChanged(event) {
-      if(await this.getProviderName() === "MetaMask"){
-        await this.swichNetwork(event.target.value)
-      }
+      await this.swichNetwork(event.target.value)
     },
     async swichNetwork(chainId) {
       const currentChainId = await window.web3.eth.net.getId()
     
       if (currentChainId !== chainId) {
         try {
-          await window.ethereum.request({
+          await window.provider.request({
             method: 'wallet_switchEthereumChain',
               params: [{ chainId: Web3.utils.toHex(chainId) }],
             });
@@ -169,7 +167,7 @@ export default {
     },
     async addNetwork(chainId) {
       try {
-        await ethereum.request({
+        await window.provider.request({
           method: 'wallet_addEthereumChain',
           params: [
             {

@@ -11,6 +11,9 @@ const providerOptions = {
         250: "https://rpc.ftm.tools",
         43114: "https://api.avax.network/ext/bc/C/rpc"
       },
+      supportedChainIds: [1,56,137,250,43114],
+      qrcode: true,
+      bridge: 'https://bridge.walletconnect.org',
       infuraId: process.env.INFURA_PROJECT_ID
     }
   },

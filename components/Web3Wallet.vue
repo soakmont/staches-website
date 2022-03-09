@@ -1,12 +1,10 @@
 <template>
  <div class="d-inline-flex align-items-center">
     <div class="d-inline-flex align-items-center">
-      <select v-if="providerName" @change="onNetworkChanged($event)" class="form-control">
-        <option value="43114">Avax</option>
-        <option value="56">BnB</option>
-        <option value="1">Mainnet</option>
-        <option value="137">Polygon</option>
-        <option value="250">Phantom</option>
+      <select v-if="providerName === 'MetaMask'" @change="onNetworkChanged($event)" v-model="networkId">
+        <option v-for="id in networkIds" :value="id" :key="id">
+          {{ chainInfo[id].networkName }}
+        </option>
       </select>
     </div>
     <div class="d-inline-flex align-items-center">
@@ -29,24 +27,72 @@ export default {
   },
   data() {
     return {
-      networks: [
-        'Avax',
-        'BnB',
-        'Mainnet',
-        'Phantom',
-        'Polygon',
-      ],
       web3: null,
       provider: null,
       address: null,
+      networkIds: [
+        '43114',
+        '1',
+        '137',
+        '250',
+        '56'
+      ],
+      chainInfo: {
+        '43114' : {
+            networkFullName: 'Avalanche Mainnet C-Chain',
+            networkName: 'Avax',
+            logoUrl: '../assets/avax.svg',
+            rpcUrl: 'https://api.avax.network/ext/bc/C/rpc',
+            currencySymbol: 'AVAX'
+        },
+        '1' : {
+            networkName: 'ETH',
+            networkFullName: 'Ethereum Mainnet',
+            logoUrl: '../assets/mainnet.svg',
+            rpcUrl: 'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
+            blockExplorerUrl: 'https://etherscan.io',
+            currencySymbol: 'ETH'
+        },
+        '137' : {
+            networkName: 'Polygon',
+            networkFullName: 'Polygon',
+            logoUrl: '../assets/polygon.svg',
+            rpcUrl: 'https://polygon-rpc.com/',
+            blockExplorerUrl: 'https://polygonscan.com/',
+            currencySymbol: 'MATIC'
+        },
+        '250' : {
+            networkName: 'Fantom',
+            networkFullName: 'Fantom Opera',
+            logoUrl: '../assets/phantom.svg',
+            rpcUrl: 'https://rpc.ftm.tools',
+            blockExplorerUrl: 'https://ftmscan.com',
+            currencySymbol: 'FTM'
+        },
+        '56' : {
+            networkName: 'BnB',
+            networkFullName: 'Binance Smart Chain Mainnet',
+            logoUrl: '../assets/bnb.svg',
+            rpcUrl: 'https://bsc-dataseed1.binance.org',
+            blockExplorerUrl: 'https://bscscan.com',
+            currencySymbol: 'BNB'
+        },
+      }
     }
   },
   computed: {
     ...mapGetters({
       atLeastOneConnectedAccount: 'atLeastOneConnectedAccount',
-      providerName: 'getProviderName',
-      networkName: 'getNetworkName'
-    })
+      providerName: 'getProviderName'
+    }),
+    networkId: {
+      get () {
+        return this.$store.state.provider.networkId
+      },
+      set (value) {
+        this.$store.commit('setNetworkId', value)
+      }
+    }
   },
   mounted() {
     if (window.localStorage.getItem('WEB3_CONNECT_CACHED_PROVIDER')) {
@@ -107,12 +153,7 @@ export default {
             });
         } catch (switchError) {
           if (switchError.code === 4902) {
-            this.$swal.fire({
-              title: 'Error',
-              text: 'The chain ID do not exist in your MetaMask',
-              icon: 'error',
-              buttonsStyling: false
-            })
+            await this.addNetwork(chainId)
           }
           if (switchError.code === -32002) {
              this.$swal.fire({
@@ -123,6 +164,33 @@ export default {
             })
           }
         }
+      }
+    },
+    async addNetwork(chainId) {
+      try {
+        await ethereum.request({
+          method: 'wallet_addEthereumChain',
+          params: [
+            {
+              nativeCurrency: {
+                  name: this.chainInfo[chainId].currencySymbol,
+                  symbol: this.chainInfo[chainId].currencySymbol,
+                  decimals: 18,
+              },
+              blockExplorerUrls: [this.chainInfo[chainId].blockExplorerUrl],
+              chainId: Web3.utils.toHex(chainId),
+              chainName: this.chainInfo[chainId].networkFullName,
+              rpcUrls: [this.chainInfo[chainId].rpcUrl]
+            },
+          ],
+        });
+      } catch (error) {
+        this.$swal.fire({
+          title: 'Error',
+          text: error,
+          icon: 'error',
+          buttonsStyling: false
+        })
       }
     },
     async getProviderMetadata() {
@@ -204,7 +272,7 @@ export default {
       const networkId = await window.web3.eth.net.getId()
       switch (networkId) {
         case 1:
-          return 'Mainnet'
+          return 'Etherum'
         case 2:
           return 'Morden'
         case 3:

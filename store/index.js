@@ -18,6 +18,9 @@ const store = _ => {
       setProvider (state, payload) {
         state.provider = payload
       },
+      setNetworkId (state, payload) {
+        state.provider.networkId = payload
+      },
       removeProvider (state, payload) {
         state.provider = {
           qaoBalance: "0",

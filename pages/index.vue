@@ -5,7 +5,7 @@
                 <div class="coming-soon-content row py-5">
                     <div class="col-12 col-md-6 d-flex">
                         <div class="m-auto">
-                            <h3 class="stache-title small">Staches Genesis Minting Finished</h3>
+                            <h3 class="stache-title small">Whitelist minting in:</h3>
                             <span class="stache-hr"></span>
                             <div id="timer">
                                 <div id="days" class="text-center">{{days}} <span>Days</span></div>
@@ -15,14 +15,16 @@
                             </div>
                             <hr/>
                             <p>
-                                Minting of the Staches Genesis collection just finished. Congratulation to the owners of the 200 Genesis.
-                                <br/><br/>
-                                Reveal will be on February 20th at 16:00 EST.
+                                The NFT of the Real Estate, from the real world and in the metaverse.
+                            </p>
+                            <p>
+                                Be part of the club, join the Stache Pass.
                             </p>
                             <span class="stache-hr"></span>
                             <p>
-                                Public Sale whitelisting is ongoing: <a href="https://discord.gg/staches" target="_new">https://discord.gg/staches</a>
+                                NFT Sale Whitelisting on discord
                             </p>
+                            <a href="https://discord.gg/staches" class="btn btn-primary" target="_new">Join Staches Discord</a>
                             <!--<div v-if="!getAccount"><p class="mint-text">Please connect your wallet</p></div>
                             <div v-else-if="mintStarted" class="mint-form">
                             <p class="total-price mint-text small">Choose between 1 and 10 NFTs</p>
@@ -68,15 +70,6 @@
                         <span class="stache-hr"></span>
                         <br/>
                         <p class="font-weight-bold">
-                            Entries
-                        </p>
-                        <p>
-                            Stache Pass will be given to all holders of Stache NFT. 
-                            It will represent a holder's amount of entries within all raffles, 
-                            giveaways and lotteries. The entries will range from 1-50 all of which 
-                            are based solely on the rarity of the Stache NFT.
-                        </p>
-                        <p class="font-weight-bold">
                             Exclusive Deals
                         </p>
                         <p>
@@ -99,6 +92,18 @@
                             There is also "Premium Levels" which is solely for Genesis NFTs with each of those 
                             being numbered 1-5 as well.
                         </p>
+                        <p>
+                            Those levels will give access to discounted rates and early access for investing in Soakmont Platform.
+                        </p>
+                        <p class="font-weight-bold">
+                            Entries
+                        </p>
+                        <p>
+                            Stache Pass will be given to all holders of Stache NFT. 
+                            It will represent a holder's amount of entries within all raffles, 
+                            giveaways and lotteries. The entries will range from 1-50 all of which 
+                            are based solely on the rarity of the Stache NFT.
+                        </p>
                     </div>
                     <div class="col-12 col-md-4 my-auto text-center py-4">
                         <img class="img-responsive" src="~/assets/img/img-stache-pass.png" alt="Stache NFT Showcase"/>
@@ -120,6 +125,7 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 1</p>
+                                        <p class=""><i class="fa fa-check"></i>1% discounted fees on Soakmont Platform.</p>
                                         <p class="">15% off webinars and free advanced charting tool.</p>
                                     </div>
                                 </div>
@@ -259,7 +265,7 @@ export default {
             hours: '',
             minutes: '',
             seconds: '',
-            endTime: new Date("February 14, 2022 16:00:00 EST"),
+            endTime: new Date("May 16, 2022 16:00:00 EST"),
             maxMint: 10,
             mintCost: 0.1,
             mintQuantity: 3,

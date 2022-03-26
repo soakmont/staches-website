@@ -1,7 +1,7 @@
 <template>
  <div class="d-inline-flex align-items-center">
     <div class="d-inline-flex align-items-center">
-      <select @change="onNetworkChanged($event)" v-model="networkId">
+      <select v-if="multichain" @change="onNetworkChanged($event)" v-model="networkId">
         <option v-for="id in networkIds" :value="id" :key="id">
           {{ chainInfo[id].networkName }}
         </option>
@@ -30,6 +30,7 @@ export default {
       web3: null,
       provider: null,
       address: null,
+      multichain:  false,
       networkIds: [
         '43114',
         '1',

@@ -2735,10 +2735,10 @@ Partner CSS
 }
 
 .roadmap-card {
+  height: 100%;
   box-sizing: border-box;
   border-radius: 32px;
   border: solid 2px #f3dbb3;
-  padding: 16px;
   display: flex;
   flex-direction: row;
   margin-bottom: 16px;

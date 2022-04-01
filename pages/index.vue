@@ -267,7 +267,7 @@
                         <span class="stache-hr mx-auto"></span>
                         <p>Connecting the dots backward will be epic. Here are the dots:</p>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>5%</h6>
@@ -281,7 +281,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>10%</h6>
@@ -295,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>15%</h6>
@@ -309,7 +309,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>20%</h6>
@@ -323,7 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>25%</h6>
@@ -337,7 +337,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>35%</h6>
@@ -351,7 +351,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>40%</h6>
@@ -365,7 +365,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>50%</h6>
@@ -379,7 +379,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>75%</h6>
@@ -393,7 +393,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>85%</h6>
@@ -407,7 +407,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>90%</h6>
@@ -421,7 +421,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 py-4">
                         <div class="card roadmap-card">
                             <div class="percentage">
                                 <h6>100%</h6>
@@ -476,11 +476,11 @@ export default {
         setInterval(() => {
             this.commingSoonTime();
         }, 1000);
-        this.$swal.fire({
+        /**this.$swal.fire({
             title: 'Pay Attention!',
             text: "Make sure you have a Genesis spot before minting. In case you've minted during Genesis without having a Genesis spot, you will not be eligible to enter the raffles with any NFTs you purchase through Genesis (Lambo and other Prizes).",
             icon: 'warning',
-        });
+        });**/
     },
     methods: {
         validateMintQuantity() {

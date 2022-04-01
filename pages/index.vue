@@ -15,14 +15,14 @@
                             </div>
                             <hr/>
                             <p>
-                                The NFT of the Real Estate, from the real world and in the metaverse.
+                                The future of Web3.0. Connecting real estate in the real world and the metaverse, creating massive passive income potential, and giving true utility to NFTs. Staches NFT is your sure win in the NFT space.
                             </p>
                             <p>
-                                Be part of the club, join the Stache Pass.
+                                Own a Stache, grow your Stash
                             </p>
                             <span class="stache-hr"></span>
                             <p>
-                                NFT Sale Whitelisting on discord
+                                Whitelisting for public mint in our discord. Join now! 
                             </p>
                             <a href="https://discord.gg/staches" class="btn btn-primary" target="_new">Join Staches Discord</a>
                             <!--<div v-if="!getAccount"><p class="mint-text">Please connect your wallet</p></div>
@@ -125,8 +125,8 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 1</p>
-                                        <p class=""><i class="fa fa-check"></i>1% discounted fees on Soakmont Platform.</p>
-                                        <p class="">15% off webinars and free advanced charting tool.</p>
+                                        <p class="">- Level 1 discounted fees on Soakmont Platform.</p>
+                                        <p class="">- 15% off webinars and free advanced charting tool.</p>
                                     </div>
                                 </div>
                                 <div class="stache-level">
@@ -135,8 +135,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 2</p>
+                                        <p class="">- Level 2 discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            20% off webinars and 10% off all investment tools.
+                                            - 20% off webinars and 10% off all investment tools.
                                         </p>
                                     </div>
                                 </div>
@@ -146,8 +147,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 3</p>
+                                        <p class="">- Level 3 discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            30% off webinars and 30% off personalized investing consultation and guidance.
+                                            - 30% off webinars and 30% off personalized investing consultation and guidance.
                                         </p>
                                     </div>
                                 </div>
@@ -157,8 +159,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 4</p>
+                                        <p class="">- Level 4 discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            40% off webinars, 40% off personalized investing consultation and guidance and 
+                                            - 40% off webinars, 40% off personalized investing consultation and guidance and 
                                             75% off investment courses.
                                         </p>
                                     </div>
@@ -169,8 +172,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 5</p>
+                                        <p class="">- Level 5 discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            75% off webinars, free personalized investing consultation and guidance, 
+                                            - 75% off webinars, free personalized investing consultation and guidance, 
                                             free investment courses and 25% off all investment tools available.
                                         </p>
                                     </div>
@@ -190,8 +194,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 1</p>
+                                        <p class="">- Level 1 premium discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            Extra 25 entries, 30% off webinars, free advanced charting 
+                                            - Extra 25 entries, 30% off webinars, free advanced charting 
                                             tool and 15% off all investment tools.
                                         </p>
                                     </div>
@@ -202,8 +207,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 2</p>
+                                        <p class="">- Level 2 premium discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            Extra 25 entries, 40% off webinars and 25% off all investment tools.
+                                            - Extra 25 entries, 40% off webinars and 25% off all investment tools.
                                         </p>
                                     </div>
                                 </div>
@@ -213,8 +219,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 3</p>
+                                        <p class="">- Level 3 premium discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            Extra 25 entries, 50% off webinars and 50% off personalized investing consultation and guidance.
+                                            - Extra 25 entries, 50% off webinars and 50% off personalized investing consultation and guidance.
                                         </p>
                                     </div>
                                 </div>
@@ -224,8 +231,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 4</p>
+                                        <p class="">- Level 4 premium discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            Extra 25 entries, 70% off webinars, 70% off personalized investing consultation 
+                                            - Extra 25 entries, 70% off webinars, 70% off personalized investing consultation 
                                             & guidance and 75% off investment courses.
                                         </p>
                                     </div>
@@ -236,8 +244,9 @@
                                     </div>
                                     <div class="text">
                                         <p class="font-weight-bold">Level 5</p>
+                                        <p class="">- Level 5 premium discounted fees on Soakmont Platform.</p>
                                         <p class="">
-                                            Extra 25 entries, FREE webinars, FREE personalized investing consultation and FREE investment courses.
+                                            - Extra 25 entries, FREE webinars, FREE personalized investing consultation and FREE investment courses.
                                         </p>
                                     </div>
                                 </div>
@@ -247,6 +256,189 @@
                 </div>
             </div>
         </section>
+        <section class="splitter text-center my-5">
+            <img class="img-responsive" src="~/assets/img/img-pellet.png" alt="Stache NFT Pellet"/>
+        </section>
+        <section class="stache-roadmap">
+            <div class="container m-auto">
+                <div class="row pb-5">
+                    <div class="col-12 text-center mb-4">
+                        <h3 class="stache-title mt-1 text-center">Launch & Development</h3>
+                        <span class="stache-hr mx-auto"></span>
+                        <p>Connecting the dots backward will be epic. Here are the dots:</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>5%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>WELCOME TO THE METAVERSE</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Staches NFT will buy lands in Sandbox or Decentraland Land, voted by Stache Holders. Any future revenue from these lands will be distributed among staches NFT holders who hold for a minimum of 6 months. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>10%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>BIG ANNOUNCEMENT PARTY</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    The prizes are sent to the giveaway winners; a big party is organized on our lands in the metaverse for the announcement. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>15%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>PRIVILEGED DEALS</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Staches NFT will give its holders access to early international in real life and metaverse real estate crowdfunding deals offered by Soakmont investment. You can now invest in the most hyped real estate deals without limitations. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>20%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>DEPLOYMENT OF $SOAK</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Staches NFT holders will own 10% of all revenue of the $SOAK Tokens. Multi-million dollar real estate deals will be closed using $SOAK through our Soakmont crowdfunding real estate investment platform. We are the first platform to crowdfund in real life and metaverse real estate deals, and revenue will be distributed among Stache NFT holders. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>25%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>STAKING PROTOCOL</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                   We will enable the ability to allow our Stache NFT holders to stake their NFTs for $SOAK distribution and generate passive income. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>35%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>ANNUAL SOAKMONT REAL ESTATE DAY</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Free access to the coveted annual Soakmont Real Estate Conference, giving you access to top investment opportunities worldwide and in the metaverse, as well as insights into current and future trends to help inform your future investment decisions. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>40%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>DONATION</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    A $50,000.00 donation is given to foundations to fight against poverty 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>50%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>ECOM DEALS</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Stache Pass: access to thousands of discounts on major eCommerce platforms. We are utilizing cutting-edge web3 wallet NFT detection technology to save you money on the things you buy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>75%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>RAISE THE FLOOR PRICE </h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Implementation of diverse strategies to raise the floor price. 5% of secondary sales are reserved for sweeps.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>85%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>FREE NFT</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Meet the Golden Stache, the rarest NFT of all, which you gain access to when you purchase 10 Staches NFT. There will also be 10 Soaked Stache NFTs randomly generated in the mint, giving a $10,000 USD reward to those lucky enough to mint it.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>90%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>FIRST DEAL CLOSED </h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Our first premium real estate deal is closed, and the revenue will be split among the Stache NFT holders. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card roadmap-card">
+                            <div class="percentage">
+                                <h6>100%</h6>
+                            </div>
+                            <div class="content">
+                                <h6>ROYALTIES</h6>
+                                <span class="stache-hr"></span>
+                                <p>
+                                    Staches NFT will deliver 20% royalties on every dollar generated by Soakmont investment to holders who have held their Stache NFT for a minimum of 6 months.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <section class="splitter text-center my-5">
             <img class="img-responsive" src="~/assets/img/img-pellet.png" alt="Stache NFT Pellet"/>

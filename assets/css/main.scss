@@ -2771,3 +2771,38 @@ Partner CSS
         }
     }
 }
+
+.roadmap-card {
+    box-sizing: border-box;
+    border-radius: 32px;
+    border: solid 2px #f3dbb3;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    &:hover {
+        border: solid 3px #d8a462;
+    }
+    .percentage {
+        display: flex;
+        padding:20px;
+        border-right: 2px solid #e6e6e6;
+        h6 {
+            font-family: Ultra;
+            font-size: 48px;
+            font-weight: normal;
+            color: #30261d;
+            margin: auto;
+        }
+    }
+    .content {
+        padding:20px;
+        h6 {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: bold;
+            color: #30261d;
+            margin: auto;
+        }
+    }
+}

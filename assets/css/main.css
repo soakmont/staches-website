@@ -899,7 +899,7 @@ About CSS
 }
 
 .team-member a:hover {
-  color: #0e314c;
+  color: #30261d;
 }
 
 @media all and (max-width: 767px) {
@@ -1649,7 +1649,7 @@ Pricing CSS
 }
 
 .pricing-tab .tabs li a {
-  color: #0e314c;
+  color: #30261d;
   background: linear-gradient(to left bottom, #fffcff, #fbfaff, #effbff, #e0fdff, #d5fefd);
   padding: 10px 30px 9.5px;
   border: none;

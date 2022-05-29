@@ -941,7 +941,7 @@ About CSS
   a {
     color: $gold-color;
     &:hover {
-      color: $black-color;
+      color: $stache-dark;
     }
   }
 }
@@ -1678,7 +1678,7 @@ Pricing CSS
       margin-bottom: 0;
 
       a {
-        color: $black-color;
+        color: $stache-dark;
         background: linear-gradient(
           to left bottom,
           #fffcff,

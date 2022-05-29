@@ -46,17 +46,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    { src: "~/plugins/vue-carousel", ssr: false },
-    { src: "~/plugins/vue-cool-lightbox", ssr: false },
-    { src: "~/plugins/vue-backtotop", ssr: false },
-    { src: "~/plugins/feather-icons", ssr: false },
-    { src: "~/plugins/vue-feather", ssr: false },
-    { src: "~/plugins/v-wow", ssr: false },
-    { src: "~/plugins/vue-toastification", ssr: false },
-    "~/plugins/web3modal.js",
-    "~/plugins/sweetalert2.js",
-  ],
+  plugins: ["~/plugins/web3modal.js", "~/plugins/sweetalert2.js"],
 
   // Globally configure <nuxt-link> default active class.
   router: {

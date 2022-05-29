@@ -84,19 +84,27 @@ a:hover, a:focus {
 
 p {
   color: #30261d;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+  font: normal normal normal 16px/19px Roboto;
   line-height: 1.2;
-  letter-spacing: normal;
+  letter-spacing: 0px;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #0e314c;
   font-weight: 500;
 }
@@ -131,7 +139,7 @@ p:last-child {
   width: 15px !important;
   height: 15px !important;
   transition: 0.5s;
-  background: #D6D6D6 !important;
+  background: #d6d6d6 !important;
   outline: 0 !important;
   padding: 0 !important;
   margin-left: 4px;
@@ -145,8 +153,7 @@ p:last-child {
 
 .stache-title {
   text-align: left;
-  font-family: Ultra;
-  font-size: 40px;
+  font: normal normal normal 32px/41px Ultra;
   color: #30261d;
   display: block;
 }
@@ -183,11 +190,13 @@ p:last-child {
   box-shadow: unset;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary .show > .btn-primary.dropdown-toggle:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: unset;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary .show > .btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary .show > .btn-primary.dropdown-toggle {
   color: #ffffff;
   background: #0e314c;
   transform: translateY(-5px);
@@ -219,10 +228,6 @@ p:last-child {
 }
 
 /*btn-secondary*/
-.btn {
-  margin-top: 0px !important;
-}
-
 .btn.btn-secondary {
   text-transform: capitalize;
   border-radius: 0;
@@ -321,7 +326,7 @@ label {
 }
 
 .section-title .bar::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: -2.7px;
@@ -378,7 +383,7 @@ Homepage Banner Shape CSS
   z-index: -1;
   left: 30px;
   animation: rotate3d 4s linear infinite;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .shape2 {
@@ -410,7 +415,7 @@ Homepage Banner Shape CSS
   top: 10%;
   z-index: -1;
   animation: movebounce 5s linear infinite;
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .shape6 {
@@ -559,7 +564,7 @@ Navbar CSS
   z-index: 9999;
   top: 0;
   left: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 #header.headroom.is-sticky {
@@ -607,17 +612,30 @@ Navbar CSS
 .startp-nav nav .navbar-nav .nav-item a {
   font-weight: 500;
   font-size: 15px;
-  color: #4a6f8a;
+  color: #30261d;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
-  margin-left: 14px;
-  margin-right: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .startp-nav nav .navbar-nav .nav-item a:hover, .startp-nav nav .navbar-nav .nav-item a:focus, .startp-nav nav .navbar-nav .nav-item a.active {
-  color: #44ce6f;
+  color: #d8a462;
+}
+
+.startp-nav nav .navbar-nav .nav-item a:hover::after, .startp-nav nav .navbar-nav .nav-item a:focus::after, .startp-nav nav .navbar-nav .nav-item a.active::after {
+  content: "";
+  background-image: url("../img/img-stache.png");
+  width: 34px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
 .startp-nav nav .navbar-nav .nav-item a .feather {
@@ -655,7 +673,7 @@ Navbar CSS
   padding: 9px 15px;
   margin: 0;
   display: block;
-  color: #4a6f8a;
+  color: #30261d;
 }
 
 .startp-nav nav .navbar-nav .nav-item .dropdown_menu li a:hover, .startp-nav nav .navbar-nav .nav-item .dropdown_menu li a:focus, .startp-nav nav .navbar-nav .nav-item .dropdown_menu li a.active {
@@ -671,7 +689,7 @@ Navbar CSS
 }
 
 .startp-nav nav .navbar-nav .nav-item .dropdown_menu li .dropdown_menu li a {
-  color: #4a6f8a;
+  color: #30261d;
 }
 
 .startp-nav nav .navbar-nav .nav-item .dropdown_menu li .dropdown_menu li a:hover, .startp-nav nav .navbar-nav .nav-item .dropdown_menu li .dropdown_menu li a:focus, .startp-nav nav .navbar-nav .nav-item .dropdown_menu li .dropdown_menu li a.active {
@@ -836,6 +854,78 @@ About CSS
   margin-bottom: 15px;
 }
 
+.soakmont {
+  background: transparent url("../img/mountains.png") bottom center padding-box;
+  background-size: cover;
+}
+
+.stache-pass {
+  background: transparent linear-gradient(180deg, #f2e2cd 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
+}
+
+.stache-perks {
+  background: #30261d url("../img/bg-pattern-2.png") bottom center no-repeat padding-box;
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+.stache-perks .stache-title,
+.stache-perks p {
+  color: white !important;
+}
+
+.stache-team {
+  background: transparent linear-gradient(0deg, #f2e2cd 0%, #ffffff 100%) bottom center no-repeat padding-box;
+}
+
+.team-member {
+  padding: 10px 0px;
+}
+
+.team-member h6 {
+  font: normal normal bold 16px/16px Roboto;
+  color: #30261d;
+}
+
+.team-member p {
+  text-align: left;
+  font: normal normal normal 14px/16px Roboto;
+  letter-spacing: 0px;
+  color: #30261d;
+}
+
+.team-member a {
+  color: #d8a462;
+}
+
+.team-member a:hover {
+  color: #0e314c;
+}
+
+@media all and (max-width: 767px) {
+  .stache-team .title-holder {
+    text-align: center !important;
+  }
+  .stache-team .title-holder .stache-title {
+    text-align: center !important;
+  }
+  .stache-team .title-holder .stache-hr {
+    display: inline-block;
+    margin: 10px auto;
+  }
+  .team-member {
+    text-align: center;
+  }
+  .team-member img {
+    margin: 16px 0px;
+  }
+  .team-member p {
+    text-align: center;
+    max-width: 80%;
+    margin: 10px auto;
+  }
+}
+
 /*================================================
 Boxes CSS
 =================================================*/
@@ -877,7 +967,7 @@ Boxes CSS
 }
 
 .single-box::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -937,7 +1027,8 @@ Boxes CSS
   color: #44ce6f;
 }
 
-.single-box:hover h3, .single-box:hover p {
+.single-box:hover h3,
+.single-box:hover p {
   color: #ffffff;
 }
 
@@ -999,7 +1090,7 @@ Services CSS
 }
 
 .services-content .box::before {
-  content: '';
+  content: "";
   left: 0;
   top: 0;
   height: 100%;
@@ -1356,7 +1447,7 @@ Pricing CSS
 }
 
 .pricing-table .pricing-header::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -1403,7 +1494,7 @@ Pricing CSS
 }
 
 .pricing-table .pricing-features ul li {
-  color: #CCDCEA;
+  color: #ccdcea;
   margin-bottom: 12px;
   text-decoration: line-through;
 }
@@ -1973,7 +2064,7 @@ Sidebar Widget CSS
 }
 
 .widget-area .widget .widget-title::before {
-  content: '';
+  content: "";
   position: absolute;
   background: #44ce6f;
   bottom: -1px;
@@ -2130,7 +2221,7 @@ Sidebar Widget CSS
   position: absolute;
   height: 7px;
   width: 7px;
-  content: '';
+  content: "";
   left: 0;
   top: 8px;
 }
@@ -2176,7 +2267,7 @@ Sidebar Widget CSS
   position: absolute;
   height: 7px;
   width: 7px;
-  content: '';
+  content: "";
   left: 0;
   top: 8px;
 }
@@ -2213,7 +2304,7 @@ Sidebar Widget CSS
   background: #44ce6f;
   height: 7px;
   width: 7px;
-  content: '';
+  content: "";
   left: 0;
   top: 8px;
   position: absolute;
@@ -2251,7 +2342,7 @@ Sidebar Widget CSS
   background: #44ce6f;
   height: 7px;
   width: 7px;
-  content: '';
+  content: "";
   left: 0;
   top: 8px;
   position: absolute;
@@ -2293,7 +2384,7 @@ Sidebar Widget CSS
   background: #44ce6f;
   height: 7px;
   width: 7px;
-  content: '';
+  content: "";
   left: 0;
   top: 8px;
   position: absolute;
@@ -2401,7 +2492,7 @@ Our Solutions CSS
 }
 
 .single-solutions-box .icon::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -5px;
   top: 50%;
@@ -2420,7 +2511,7 @@ Our Solutions CSS
 }
 
 .single-solutions-box::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -2467,7 +2558,7 @@ Free Trial CSS
 }
 
 .free-trial-area::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -2611,6 +2702,44 @@ footer {
   padding: 12px 0px;
 }
 
+footer .social-footer a {
+  text-align: center;
+  color: #d8a462;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #453c34;
+  width: 45px;
+  height: 45px;
+  margin: 8px;
+}
+
+footer .social-footer a .svg-inline--fa,
+footer .social-footer a img {
+  font-size: 1.8em;
+  margin: 10px auto;
+  display: inline-block;
+}
+
+footer .social-footer a:hover {
+  background-color: #0e314c;
+}
+
+footer .footer-copyright {
+  border-top: 1px solid rgba(152, 147, 142, 0.3);
+  padding-top: 8px;
+  text-align: center;
+  color: #98938e;
+  font: normal normal normal 12px/14px Roboto;
+}
+
+@media all and (max-width: 767px) {
+  footer .social-footer,
+footer .logo-footer {
+    text-align: center !important;
+    margin: 8px 0;
+  }
+}
+
 /*=============================
 Go Top CSS
 ===============================*/
@@ -2732,16 +2861,20 @@ Partner CSS
 .stache-card .card-body .stache-level .text p {
   padding: 0;
   margin: 0 0 4px;
+  font: normal normal normal 12px/14px Roboto;
 }
 
 .roadmap-card {
   height: 100%;
   box-sizing: border-box;
   border-radius: 32px;
-  border: solid 2px #f3dbb3;
-  display: flex;
-  flex-direction: row;
+  box-shadow: 0px 10px 20px #00000029;
+  text-align: center;
   margin-bottom: 16px;
+}
+
+.roadmap-card .stache-hr {
+  display: inline-block;
 }
 
 .roadmap-card:hover {
@@ -2751,7 +2884,6 @@ Partner CSS
 .roadmap-card .percentage {
   display: flex;
   padding: 20px;
-  border-right: 2px solid #e6e6e6;
 }
 
 .roadmap-card .percentage h6 {
@@ -2772,4 +2904,23 @@ Partner CSS
   font-weight: bold;
   color: #30261d;
   margin: auto;
+}
+
+.roadmap-card .content p {
+  font: normal normal normal 12px/14px Roboto;
+}
+
+.bg-pattern-1 {
+  background-image: url("../img/bg-pattern-1.png");
+  background-repeat: no-repeat;
+  background-position: 10% 60%;
+}
+
+.card.soakmont-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #00000029;
+  border-radius: 30px;
+  opacity: 1;
+  padding: 24px;
+  border: none;
 }

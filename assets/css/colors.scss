@@ -1,15 +1,22 @@
 $light-green-color: #44ce6f;
 $white-color: #ffffff;
 $black-color: #0e314c;
-$navlink-color: #4a6f8a;
+$navlink-color: #30261d;
 $paragraph-color: #6084a4;
 $purple-color: #c679e3;
 $bg-color: #f7fafd;
 $bg-color2: #f9f6f6;
 $hosting-main-color: #032b8d;
 $gradient-color: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
-$gradient-color2: linear-gradient(to right bottom, #1fa2ff, #00c0ff, #00d9f2, #53eedd, #a6ffcb);
-$transition: .5s;
+$gradient-color2: linear-gradient(
+  to right bottom,
+  #1fa2ff,
+  #00c0ff,
+  #00d9f2,
+  #53eedd,
+  #a6ffcb
+);
+$transition: 0.5s;
 $font-size: 14px;
 
 $gold-color: #d8a462;

@@ -407,7 +407,9 @@
       <div class="container m-auto">
         <div class="row mt-4">
           <div class="col-12 col-md-6">
-            <h3 class="stache-title mt-1">Ground-breaking bank backing</h3>
+            <h3 class="stache-title mt-1">
+              Ground-breaking financial institution backing
+            </h3>
             <span class="stache-hr"></span>
             <p class="font-weight-bold">The first of its kind</p>
             <p>
@@ -418,20 +420,21 @@
             </p>
             <p>
               There has been an agreement made between Soakmont, StachesNFT, and
-              a Canadian digital subsidiary bank. The terms of this partnership
-              is to focus solely on Web3 projects and the Metaverse. There will
-              also be focus on designing technology that will be used on the
-              Soakmont investment platform that will entail a USD and CAD
-              stablecoin.
+              a Canadian digital subsidiary financial institution. The terms of
+              this partnership is to focus solely on Web3 projects and the
+              Metaverse. There will also be focus on designing technology that
+              will be used on the Soakmont investment platform that will entail
+              a USD and CAD stablecoin.
             </p>
 
             <p>
               StachesNFT is officially the FIRST NFT project to be backed by a
-              fully regulated bank. StachesNFT will also be going into
-              agreements with the bank to acquire and crowdfund Metaverse
-              properties. Later down the line, they will also be building their
-              own Metaverse where StachesNFT and Soakmont will be looking to
-              acquire land, as well as, other top Metaverse properties.
+              fully regulated financial institution. StachesNFT will also be
+              going into agreements with the financial institution to acquire
+              and crowdfund Metaverse properties. Later down the line, they will
+              also be building their own Metaverse where StachesNFT and Soakmont
+              will be looking to acquire land, as well as, other top Metaverse
+              properties.
             </p>
             <p>
               This is an extensive step forward for StachesNFT and the NFT

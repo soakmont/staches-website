@@ -916,7 +916,7 @@ export default {
       hours: "",
       minutes: "",
       seconds: "",
-      endTime: new Date("June 25, 2022 16:00:00 EST"),
+      endTime: new Date("July 09, 2022 16:00:00 EST"),
       maxMint: 10,
       mintCost: 0.1,
       mintQuantity: 3,

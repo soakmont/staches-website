@@ -777,16 +777,16 @@
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="team-member row">
-              <div class="col-12 col-sm-4">
+              <div class="col-12 col-lg-5">
                 <img
-                  class="img-responsive"
-                  src="~/assets/img/team/img-yb.png"
+                  class="img-responsive team-image"
+                  src="~/assets/img/team/yb.jpg"
                   alt="Stache NFT Pellet"
                 />
               </div>
-              <div class="col-12 col-sm-8 d-flex">
+              <div class="col-12 col-lg-7 d-flex">
                 <div class="my-auto">
-                  <h6>YB</h6>
+                  <h6>YANN</h6>
                   <p>
                     YB Soﬂware engineer with a solid experience in blockchain
                     and real estate. He’s managing the project development. When
@@ -801,16 +801,16 @@
               </div>
             </div>
             <div class="team-member row">
-              <div class="col-12 col-sm-4">
+              <div class="col-12 col-lg-5">
                 <img
-                  class="img-responsive"
-                  src="~/assets/img/team/img-steve-mayer.png"
+                  class="img-responsive team-image"
+                  src="~/assets/img/team/steven.png"
                   alt="Stache NFT Pellet"
                 />
               </div>
-              <div class="col-12 col-sm-8 d-flex">
+              <div class="col-12 col-lg-7 d-flex">
                 <div class="my-auto">
-                  <h6>STEVEO</h6>
+                  <h6>STEVEN</h6>
                   <p>
                     6 years of experience in sales and marketing. Owns multiple
                     businesses. He spends most of his free time with his kids
@@ -825,16 +825,16 @@
               </div>
             </div>
             <div class="team-member row">
-              <div class="col-12 col-sm-4">
+              <div class="col-12 col-lg-5">
                 <img
-                  class="img-responsive"
-                  src="~/assets/img/team/img-stazzi.png"
+                  class="img-responsive team-image"
+                  src="~/assets/img/team/stazzi.png"
                   alt="Stache NFT Pellet"
                 />
               </div>
-              <div class="col-12 col-sm-8 d-flex">
+              <div class="col-12 col-lg-7 d-flex">
                 <div class="my-auto">
-                  <h6>STAZZI</h6>
+                  <h6>ANASTACIO</h6>
                   <p>
                     Corporate Marketing, Sales, HR. & Management experience.
                     When he's not working on DeFi projects, he's coaching or
@@ -849,16 +849,16 @@
               </div>
             </div>
             <div class="team-member row">
-              <div class="col-12 col-sm-4">
+              <div class="col-12 col-lg-5">
                 <img
-                  class="img-responsive"
-                  src="~/assets/img/team/img-scribbles.png"
+                  class="img-responsive team-image"
+                  src="~/assets/img/team/michael.png"
                   alt="Stache NFT Pellet"
                 />
               </div>
-              <div class="col-12 col-sm-8 d-flex">
+              <div class="col-12 col-lg-7 d-flex">
                 <div class="my-auto">
-                  <h6>SCRIBBLES</h6>
+                  <h6>MICHAEL</h6>
                   <p>
                     Operations supervisor and owns a wealth management firm in
                     the US. When he's not working on DeFi projects he’s training
@@ -872,44 +872,20 @@
                 </div>
               </div>
             </div>
-            <div class="team-member row">
-              <div class="col-12 col-sm-4">
-                <img
-                  class="img-responsive"
-                  src="~/assets/img/team/img-hoole-26.png"
-                  alt="Stache NFT Pellet"
-                />
-              </div>
-              <div class="col-12 col-sm-8 d-flex">
-                <div class="my-auto">
-                  <h6>HOOLE26</h6>
-                  <p>
-                    Years of strategy development and delivery on multi-million
-                    dollar programmes. Spare time is wasted believing Manchester
-                    United might win their next game...
-                  </p>
-                  <a href="https://twitter.com/hoole26" target="_blank"
-                    ><font-awesome-icon
-                      :icon="['fab', 'twitter']"
-                      class="fa-2x"
-                  /></a>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div class="col-12 col-md-6">
             <div class="team-member row">
-              <div class="col-12 col-sm-4">
+              <div class="col-12 col-lg-5">
                 <img
-                  class="img-responsive"
-                  src="~/assets/img/team/img-sal.png"
+                  class="img-responsive team-image"
+                  src="~/assets/img/team/sal.png"
                   alt="Stache NFT Pellet"
                 />
               </div>
-              <div class="col-12 col-sm-8 d-flex">
+              <div class="col-12 col-lg-7 d-flex">
                 <div class="my-auto">
-                  <h6>ReadingKing</h6>
+                  <h6>SAL</h6>
                   <p>
                     Managing the family’s supermarket, community manager,
                     useless at heart, and part time mate-Husband.
@@ -923,21 +899,29 @@
               </div>
             </div>
             <div class="team-member row">
-              <div class="col-12 col-sm-4">
+              <div class="col-12 col-lg-5">
                 <img
-                  class="img-responsive"
-                  src="~/assets/img/team/img-secure-88.png"
+                  class="img-responsive team-image"
+                  src="~/assets/img/team/owen.jpg"
                   alt="Stache NFT Pellet"
                 />
               </div>
-              <div class="col-12 col-sm-8 d-flex">
+              <div class="col-12 col-lg-7 d-flex">
                 <div class="my-auto">
-                  <h6>SECURE88</h6>
-                  <p>Advanced trader responsible for the SOAK trading room.</p>
+                  <h6>OWEN</h6>
+                  <p>
+                    Years of strategy development and delivery on multi-million
+                    dollar programmes. Spare time is wasted believing Manchester
+                    United might win their next game...
+                  </p>
+                  <a href="https://twitter.com/hoole26" target="_blank"
+                    ><font-awesome-icon
+                      :icon="['fab', 'twitter']"
+                      class="fa-2x"
+                  /></a>
                 </div>
               </div>
             </div>
-
             <img
               class="img-responsive"
               src="~/assets/img/img-software-engineer.png"

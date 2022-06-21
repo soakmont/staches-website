@@ -23,15 +23,19 @@
               </div>
               <hr />
               <p>
-                The future of Web3.0. Connecting real estate in the real world
-                and the metaverse, creating massive passive income potential,
-                and giving true utility to NFTs. Staches NFT is your sure win in
-                the NFT space.
+                The only NFT collection backed by a regulated Financial
+                Institution.
               </p>
-              <p class="font-weight-bold">Own a Stache, grow your Stash</p>
+              <p>
+                StachesNFT is Soakmont's official utility-packed NFT that gives
+                a maximum of 10,000 holders exclusive ways to earn, save, and
+                access unbeatable DeFi and real world opportunities. Don’t miss
+                your chance to own a Stache and grow your stash.
+              </p>
               <span class="stache-hr"></span>
               <p>
-                Whitelisting for public mint in our discord.
+                Join our discord to get whitelisted and guarantee your Stache
+                today:
                 <span class="font-weight-bold">Join now!</span>
               </p>
               <a
@@ -76,14 +80,21 @@
             <h3 class="stache-title mt-5">About Staches</h3>
             <span class="stache-hr"></span>
             <p>
-              Welcome to StachesNFT where the exquisite artwork for every single
-              one of the 10,000 unique Staches is only bettered by the
-              handpicked utility.
+              StachesNFT represents a step change for the NFT space. As well as
+              providing the elements you would expect from high quality NFTs -
+              exquisite artwork and rarity - StachesNFT goes way beyond and adds
+              a range of unbeatable real world utility and incredible benefits
+              across the revolutionary products offered by the Soakmont Group.
             </p>
             <p>
-              The StachesNFT collection has been curated by Soakmont with a
-              single goal in mind: providing multiple ways to earn, save, and
-              access exclusive opportunities!
+              On top of this, StachesNFT is the only NFT that is backed by a
+              regulated financial institution - Atlantic Trust Company.
+            </p>
+            <p>
+              The exclusive, limited StachesNFT collection sets a new benchmark
+              in quality and utility that all future NFT projects will be
+              compared to - don’t miss out on your chance to own a Stache and
+              grow your stash.
             </p>
             <a
               href="https://discord.gg/staches"
@@ -102,41 +113,56 @@
             <div class="card soakmont-card">
               <div class="row">
                 <div class="col-12 col-lg-8">
-                  <h3 class="stache-title mt-1">Innovative Real Estate</h3>
+                  <h3 class="stache-title mt-1">StachesNFT</h3>
                   <span class="stache-hr"></span>
                   <p>
-                    StachesNFT was created to work hand-in-hand with Soakmont
-                    ($SKMT). Soakmont’s core mission is to make high end real
-                    estate and private equity investment opportunities available
-                    to everyone, removing the traditional barriers to
-                    investment. So whether you’re looking to invest one dollar,
-                    a thousand dollars or a million dollars, Soakmont will offer
-                    the assets and support to meet and beat your expectations.
+                    So, you want to be one of the select few who can proudly
+                    boast they own a <i>StachesNFT</i>, that means after our
+                    mint you can tell people that your <i>StachesNFT</i> has:
+                  </p>
+                  <ul>
+                    <li>Exquisite unique artwork</li>
+                    <li>
+                      A rarity score based on a randomly generated properties
+                    </li>
+                    <li>
+                      Access to an unrivaled range of utility (detailed below)
+                    </li>
+                  </ul>
+                  <p>
+                    And following mint, on reveal there are two incredible
+                    one-time-only offers:
+                  </p>
+                  <ul>
+                    <li>
+                      Will you get a <b>Soaked Stache</b>? There are only 10 of
+                      these in the entire collection and each one will see the
+                      holder receive a <u>$10,000 reward.</u>
+                    </li>
+                    <li>
+                      Check your properties carefully, if your
+                      <i>StachesNFT</i> has a <b>yacht background</b>, then
+                      congratulations! This is your ticket to a one-of-a-kind
+                      yacht party. There are only 25 of these super rare Staches
+                      - will you be lucky enough to get one?
+                    </li>
+                  </ul>
+                  <p>
+                    Finally, get ready to find out just how golden holding is
+                    and meet the rarely seen <b>GoldenStache</b> - this
+                    exclusive NFT will be given to anyone who holds 10 or more
+                    Staches and unlocks even more benefits for holders…
                   </p>
                   <p>
-                    Soakmont will be developing an investment platform and their
-                    own rental platform. Soakmont will also be vesting 10% then
-                    20% of the total supply to StachesNFT. Here on the
-                    investment platform, StachesNFT holders will be given
-                    exclusive benefits and perks with Stache Pass (listed
-                    below). On the rental platform side, those who have invested
-                    in the crowdfunding of properties, including StachesNFT
-                    holders, will see realized gains from profits. StachesNFT
-                    holders will also have exclusive travel deals and perks when
-                    booking through the Soakmont rental platform.
+                    There’s still more. Much more. Let’s take a look at the
+                    amazing utility you get with your StachesNFT…
                   </p>
-                  <a
-                    href="https://soakmont.com"
-                    class="btn btn-primary"
-                    target="_new"
-                    >Soakmont Website</a
-                  >
                 </div>
                 <div class="col-12 col-lg-4 d-flex">
                   <div class="my-auto mx-auto">
                     <img
                       class="img-responsive my-4"
-                      src="~/assets/img/img-soakmont.png"
+                      src="~/assets/img/img-alien-staches.png"
                       alt="Soakmont Logo"
                     />
                   </div>
@@ -158,40 +184,71 @@
             />
           </div>
           <div class="col-12 col-md-8">
-            <h3 class="stache-title mt-1">Stache Pass</h3>
+            <h3 class="stache-title mt-1">Unique, Unbeatable Utility</h3>
             <span class="stache-hr"></span>
             <br />
-            <p class="font-weight-bold">Exclusive Deals</p>
             <p>
-              Within the Soakmont investment platform, Stache Pass will allow
-              users to have early access and discounted rates on tools that will
-              be available. Stache Pass is a unique helping hand when it comes
-              to investing strategy. It will allow users to have unique rebated
-              offers and free products from Staches partners.
-            </p>
-            <p class="font-weight-bold">Investor Levels</p>
-            <p>
-              There will be a numbered sticker on the bottom left corner of each
-              Stache NFT that will represent the "Investor Level". The Investor
-              Level will determine what exclusive perks and incentives a holder
-              will have access to with their Stache Pass. There will be 5
-              Investor Levels, number 5 being the highest and 1 being the
-              lowest. There is also "Premium Levels" which is solely for Genesis
-              NFTs with each of those being numbered 1-5 as well.
+              Our utility has been thoughtfully handpicked and designed to give
+              holders peerless utility across a range of industries and
+              settings.
             </p>
             <p>
-              Those levels will give access to discounted rates and early access
-              for investing in Soakmont Platform.
+              <i>StachesNFT</i> gives you useful utility every single day.
+              Through our cutting-edge web3 NFT wallet detection technology,
+              <i>StachesNFT</i> will unlock <b>discounts and cashback</b> at
+              thousands of retailers on major ecommerce platforms.
             </p>
-            <p class="font-weight-bold">Entries</p>
             <p>
-              Stache Pass will be given to all holders of Stache NFT. We have
-              also partnered with Lucky Fairy $FAE to participate in their
-              lotteries. Someone's Stache Pass will represent their amount of
-              entries within all raffles, giveaways and $FAE lotteries. The
-              amount of entries will be based solely on the rarity of the Stache
-              NFT.
+              As the
+              <b>only NFT backed by a regulated financial institution</b>,
+              <i>StachesNFT</i> holders will receive premium services from
+              Atlantic Trust Company’s soon-to-be-launched digital subsidiary as
+              a result of ATC’s agreement with Soakmont (more on that below!).
             </p>
+            <p>
+              The rarity of your <i>StachesNFT</i> is linked to the number of
+              entries you’ll get in our <b>regular giveaways</b> for incredible
+              real world and DeFi prizes.
+            </p>
+            <p>
+              And of course being Soakmont’s official NFT,
+              <i>StachesNFT</i> holders unlock incredible benefits across the
+              entire Soakmont ecosystem:
+            </p>
+            <ul>
+              <li>
+                <i>Soakmont Investment Platform</i>:
+                <b>20% of the tokens</b> from this revolutionary real estate and
+                private equity investment platform goes to StachesNFT DAO. Your
+                StachesNFT unlocks <b>StachePass</b> (detailed below) for even
+                greater benefits on the SIP.
+              </li>
+              <li>
+                <i>Soakmont Rental and Travel Platform</i>: You will get early
+                <b>access, discounts and rewards</b> on travel related bookings
+                and experiences. <b>GoldenStache</b> holders will get even more.
+              </li>
+              <li>
+                <i>Soakmont DeFi App</i>: <b>Stakers of StachesNFT</b> will be
+                rewarded for participating in the ecosystem.
+              </li>
+            </ul>
+            <p>
+              As a StachesNFT holder you also unlock our coveted
+              <i>StachePass</i> for use with the Soakmont Investment Platform
+              that also gives you:
+            </p>
+            <ul>
+              <li>
+                Exclusive and/or early access to investment opportunities.
+              </li>
+              <li>
+                Every <i>StachesNFT</i> has a randomly generated Level 1, 2, 3,
+                4, or 5 that entitles you to increasing additional utility
+                across the <i>Soakmont</i> ecosystem, and this is increased even
+                further if you own a GenesisNFT:
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -201,7 +258,7 @@
           <div class="col-12 col-md-6 mb-4">
             <div class="card stache-card shadow h-100">
               <div class="card-title">
-                <h3>Standard Investor Level Rewards</h3>
+                <h3>StachePass Level Rewards</h3>
               </div>
               <div class="card-body">
                 <div class="stache-level">
@@ -215,7 +272,7 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 1</p>
                     <p class="">
-                      - Level 1 discounted fees on Soakmont Platform.
+                      - Level 1 discounted fees on Soakmont Investment Platform.
                     </p>
                     <p class="">- Free advanced charting tool.</p>
                   </div>
@@ -231,7 +288,7 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 2</p>
                     <p class="">
-                      - Level 2 discounted fees on Soakmont Platform.
+                      - Level 2 discounted fees on Soakmont Investment Platform.
                     </p>
                     <p class="">- 10% off all investment tools.</p>
                   </div>
@@ -247,7 +304,7 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 3</p>
                     <p class="">
-                      - Level 3 discounted fees on Soakmont Platform.
+                      - Level 3 discounted fees on Soakmont Investment Platform.
                     </p>
                     <p class="">
                       - 30% off personalized investing consultation and
@@ -266,7 +323,7 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 4</p>
                     <p class="">
-                      - Level 4 discounted fees on Soakmont Platform.
+                      - Level 4 discounted fees on Soakmont Investment Platform.
                     </p>
                     <p class="">
                       - 40% off personalized investing consultation and guidance
@@ -285,7 +342,7 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 5</p>
                     <p class="">
-                      - Level 5 discounted fees on Soakmont Platform.
+                      - Level 5 discounted fees on Soakmont Investment Platform.
                     </p>
                     <p class="">
                       - free personalized investing consultation and guidance,
@@ -300,7 +357,7 @@
           <div class="col-12 col-md-6 mb-4">
             <div class="card stache-card shadow h-100">
               <div class="card-title">
-                <h3>Premium Investor Level Rewards</h3>
+                <h3>GenesisPass Level Rewards</h3>
               </div>
               <div class="card-body">
                 <div class="stache-level">
@@ -314,11 +371,11 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 1</p>
                     <p class="">
-                      - Level 1 premium discounted fees on Soakmont Platform.
+                      - Level 1 Genesis discounted fees on Soakmont Platform.
                     </p>
                     <p class="">
-                      - Extra 25 entries, free advanced charting tool and 15%
-                      off all investment tools.
+                      - Extra 25 entries on giveaways, free advanced charting
+                      tool and 15% off all investment tools.
                     </p>
                   </div>
                 </div>
@@ -333,10 +390,11 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 2</p>
                     <p class="">
-                      - Level 2 premium discounted fees on Soakmont Platform.
+                      - Level 2 Genesis discounted fees on Soakmont Platform.
                     </p>
                     <p class="">
-                      - Extra 25 entries and 25% off all investment tools.
+                      - Extra 25 entries on giveaways and 25% off all investment
+                      tools.
                     </p>
                   </div>
                 </div>
@@ -351,11 +409,11 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 3</p>
                     <p class="">
-                      - Level 3 premium discounted fees on Soakmont Platform.
+                      - Level 3 Genesis discounted fees on Soakmont Platform.
                     </p>
                     <p class="">
-                      - Extra 25 entries and 50% off personalized investing
-                      consultation and guidance.
+                      - Extra 25 entries on giveaways and 50% off personalized
+                      investing consultation and guidance.
                     </p>
                   </div>
                 </div>
@@ -370,11 +428,12 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 4</p>
                     <p class="">
-                      - Level 4 premium discounted fees on Soakmont Platform.
+                      - Level 4 Genesis discounted fees on Soakmont Platform.
                     </p>
                     <p class="">
-                      - Extra 25 entries, 70% off personalized investing
-                      consultation & guidance and 75% off investment courses.
+                      - Extra 25 entries on giveaways, 70% off personalized
+                      investing consultation & guidance and 75% off investment
+                      courses.
                     </p>
                   </div>
                 </div>
@@ -389,11 +448,11 @@
                   <div class="text">
                     <p class="font-weight-bold">Level 5</p>
                     <p class="">
-                      - Level 5 premium discounted fees on Soakmont Platform.
+                      - Level 5 Genesis discounted fees on Soakmont Platform.
                     </p>
                     <p class="">
-                      - Extra 25 entries, FREE personalized investing
-                      consultation and FREE investment courses.
+                      - Extra 25 entries on giveaways, FREE personalized
+                      investing consultation and FREE investment courses.
                     </p>
                   </div>
                 </div>
@@ -408,42 +467,42 @@
         <div class="row mt-4">
           <div class="col-12 col-md-6">
             <h3 class="stache-title mt-1">
-              Ground-breaking financial institution backing
+              Groundbreaking financial institution backing
             </h3>
             <span class="stache-hr"></span>
             <p class="font-weight-bold">The first of its kind</p>
             <p>
-              Usually, having one utility is good for a NFT project, even having
-              multiple utilities or being partnered with a project as
-              forward-thinking as Soakmont would suffice. StachesNFT conquers
-              all of this while still adding value and support.
+              <i>Soakmont</i> has reached an agreement with a Canadian regulated
+              Financial Institution: <b>Atlantic Trust Company (ATC)</b>. This
+              partnership will create a regulated entity which will cater to the
+              cryptocurrency and blockchain industry, providing stability and
+              insurance for investors. The agreement will see the following
+              initial outputs:
             </p>
-            <p>
-              There has been an agreement made between Soakmont, StachesNFT, and
-              a Canadian digital subsidiary financial institution. The terms of
-              this partnership is to focus solely on Web3 projects and the
-              Metaverse. There will also be focus on designing technology that
-              will be used on the Soakmont investment platform that will entail
-              a USD and CAD stablecoin.
-            </p>
-
-            <p>
-              StachesNFT is officially the FIRST NFT project to be backed by a
-              fully regulated financial institution. StachesNFT will also be
-              going into agreements with the financial institution to acquire
-              and crowdfund Metaverse properties. Later down the line, they will
-              also be building their own Metaverse where StachesNFT and Soakmont
-              will be looking to acquire land, as well as, other top Metaverse
-              properties.
-            </p>
-            <p>
-              This is an extensive step forward for StachesNFT and the NFT
-              industry as a whole. This gives StachesNFT and Soakmont
-              flexibility, worldwide reach, and a one of a kind backing. This is
-              a cornerstone for the industry and we will continue to develop
-              many products that will be a prime example of what the NFT and
-              Fintech industry is fully capable of.
-            </p>
+            <ul style="color: white">
+              <li>
+                Launch of a new digital subsidiary Trust/Financial Institution
+                in 2022.
+              </li>
+              <li>
+                Launch of fully secure, 1:1 fiat asset-backed CAD and USD
+                stablecoins - these will be fully regulated and regularly
+                audited.
+              </li>
+              <li>
+                ATC and its subsidiary will ensure the forthcoming Soakmont
+                Investment Platform is fully regulated for asset tokenization
+                and fractional ownership.
+              </li>
+              <li>
+                ATC’s digital subsidiary will provide premium services to
+                StachesNFT holders
+              </li>
+              <li>
+                This agreement makes StachesNFT the only NFT backed by a
+                regulated financial institution.
+              </li>
+            </ul>
           </div>
           <div class="col-12 col-md-6 my-auto text-center pt-4">
             <img
@@ -464,41 +523,27 @@
           <div class="col-12 col-md-5 my-auto text-center py-0">
             <img
               class="img-responsive"
-              src="~/assets/img/img-alien-staches.png"
+              style="max-width: 280px"
+              src="~/assets/img/img-soakmont-white.png"
               alt="Stache NFT Showcase"
             />
           </div>
           <div class="col-12 col-md-7">
-            <h3 class="stache-title mt-1">Travel Perks</h3>
+            <h3 class="stache-title mt-1">Soakmont Group Inc</h3>
             <span class="stache-hr"></span>
-            <p class="font-weight-bold">The best way to travel</p>
             <p>
-              Real estate is not the only perk with StachesNFT. In addition to
-              exclusive deals on the Soakmont rental app, we want to help
-              StachesNFT holders even further. In order to get to the amazing
-              rental properties all across the world, you need to get there
-              first. StachesNFT will be offering travel discounts and exclusive
-              perks for holders through the Soakmont rental platform.
+              The Soakmont Group, Inc is a financial technology company focused
+              on utilizing the transparency and efficiency of blockchain and
+              Web3 across a range of industries and products.
             </p>
 
             <p>
-              These will entail discounted flights, reimbursement on rental
-              vehicles, and exclusive offers on events and activities. Each of
-              these offers will be dependent on where someone is traveling and
-              will be constantly evolving as we grow. StachesNFT is the unique
-              Web3 NFT that brings full utilization to the real world. We will
-              continue to adapt with time in order to bring the most exciting
-              experience.
-            </p>
-            <p>
-              Unlike Stache Pass, the level of the NFT will not determine the
-              travel perks one will receive. All StachesNFT holders will be
-              given equal rights with this utility. However with the addition of
-              the Golden Stache, which someone will receive once they own 10
-              StachesNFTs, we will be giving these holders extra deals. This
-              could emerge to be a free flight, free events or activities, or
-              even fully paid rental property for one or more nights. All
-              exclusive offers will be ever changing and/or growing.
+              Soakmont is developing a range of cutting edge Web3 and blockchain
+              technologies to create a range of fully regulated and unbeatable
+              products including: the Soakmont Investment Platform, Soakmont
+              DeFi App, Soakmont Rental and Travel Platform - StachesNFT holders
+              will benefit from a range of exclusive offers, discounts and other
+              perks across all of these platforms.
             </p>
           </div>
         </div>
